@@ -29,7 +29,8 @@ body {
 
 .mad-lib-title {
     text-align: center;
-    color:darkcyan
+    color:darkcyan;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .mad-lib-instructions {
@@ -55,4 +56,15 @@ span {
 input {
     padding: 5px;
     margin: 5px;
+    text-align: center;
+}
+
+.spiral {
+    height: 100px;
+    width: 100px;
+    transition: 1s ease-in-out;
+}
+
+.spiral:hover {
+    transform: rotate(360deg);
 }
