@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:darkslategrey;
+}
+
+.mad-lib-section {
+    display: none;
+    color: white;
+    text-align: center;
+}
+
+.input-section {
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mad-lib-title {
+    text-align: center;
+    color:darkcyan
+}
+
+.mad-lib-instructions {
+    text-align: center;
+    color: white;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+}
+
+span {
+    color:peru;
+    text-decoration: underline;
+}
