@@ -24,7 +24,7 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .mad-lib-title {
@@ -46,4 +46,13 @@ body {
 span {
     color:peru;
     text-decoration: underline;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
 }
